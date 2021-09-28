@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: guestbook-ui
   annotations:
-    newTag: "2"
+    newTag: "3"
 spec:
   replicas: 1
   revisionHistoryLimit: 3
